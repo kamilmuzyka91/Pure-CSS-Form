@@ -45,3 +45,18 @@ button {
   align-items: center;
   margin-top: 20px;
 }
+
+label.login::before {
+  content: "\f007";
+  font-family: "Font Awesome 5 Free";
+  font-size: 1.5em;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+/* nie wchodzi mi inny font niż ten sam co wyżej - dlaczego ? 
+label.passwd::before {
+  content: "\f084";
+  font-family: "Font Awesome 5 Free";
+  font-size: 1.5em;
+} */
