@@ -38,3 +38,10 @@ button {
   border-radius: 5px;
   padding: 15px 30px;
 }
+
+.btn__submit {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
