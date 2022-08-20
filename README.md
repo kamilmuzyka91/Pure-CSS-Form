@@ -2,5 +2,9 @@
 
 Signup form in pure CSS.
 
-google fonts
+css variables
+
+google fonts @font-face
+
+web font generator (woff format)
 https://www.fontsquirrel.com/
