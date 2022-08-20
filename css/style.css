@@ -79,3 +79,27 @@ label.passwd::before {
   text-align: center;
   padding: 10px;
 }
+
+a {
+  color: #4ba182;
+  text-decoration: none;
+  letter-spacing: 1.2px;
+}
+
+a:visited {
+  color: #2aa061;
+  text-decoration: none;
+  letter-spacing: 1.2px;
+}
+
+a:hover {
+  color: #6dc398;
+  text-decoration: none;
+  letter-spacing: 1.2px;
+}
+
+a:active {
+  color: #6dc398;
+  text-decoration: none;
+  letter-spacing: 1.2px;
+}
