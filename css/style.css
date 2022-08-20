@@ -1,3 +1,11 @@
+@font-face {
+  font-family: "robotoregular";
+  src: url("roboto-regular-webfont.woff2") format("woff2"),
+    url("roboto-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -10,6 +18,7 @@ body {
   background-image: url("../images/background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  font-family: "robotoregular";
   height: 100vh;
   margin: 0;
 }
@@ -50,13 +59,23 @@ label.login::before {
   content: "\f007";
   font-family: "Font Awesome 5 Free";
   font-size: 1.5em;
+  font-weight: 600;
+  color: #4ba182;
   margin-right: 10px;
   margin-bottom: 10px;
 }
 
-/* nie wchodzi mi inny font niż ten sam co wyżej - dlaczego ? 
 label.passwd::before {
-  content: "\f084";
+  content: "\f023";
   font-family: "Font Awesome 5 Free";
   font-size: 1.5em;
-} */
+  font-weight: 600;
+  color: #4ba182;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.title {
+  text-align: center;
+  padding: 10px;
+}
