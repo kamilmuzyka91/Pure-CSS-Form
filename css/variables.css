@@ -1,0 +1,8 @@
+:root {
+  box-sizing: border-box;
+  margin: 0;
+  --primary-color: #4ba182;
+  --link-visited: #2aa061;
+  --link-hover: #6dc398;
+  --link-active: #6dc398;
+}

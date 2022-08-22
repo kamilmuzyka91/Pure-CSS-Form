@@ -1,19 +1,5 @@
-@font-face {
-  font-family: "robotoregular";
-  src: url("../fonts/roboto-regular-webfont.woff2") format("woff2"),
-    url("../fonts/roboto-regular-webfont.woff2") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
-* {
-  box-sizing: border-box;
-  margin: 0;
-  --primary-color: #4ba182;
-  --link-visited: #2aa061;
-  --link-hover: #6dc398;
-  --link-active: #6dc398;
-}
+@import "../css/variables.css";
+@import "./fonts.css";
 
 body {
   display: flex;
