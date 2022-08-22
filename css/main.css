@@ -1,0 +1,110 @@
+@import "../css/variables.css";
+@import "./fonts.css";
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../images/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "robotoregular";
+  height: 100vh;
+  margin: 0;
+}
+
+form {
+  background: #fff;
+  border-radius: 4px 4px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+}
+
+input {
+  display: block;
+  width: 400px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  margin: 20px 0;
+}
+
+input:focus {
+  outline: none;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
+}
+
+button {
+  display: inline-block;
+  color: #fff;
+  background: var(--primary-color);
+  border: none;
+  border-radius: 5px;
+  padding: 15px 30px;
+  cursor: pointer;
+}
+
+.btn__submit {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+label.login::before {
+  content: "\f007";
+  font-family: "Font Awesome 5 Free";
+  font-size: 1.5em;
+  font-weight: 600;
+  color: var(--primary-color);
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+label.passwd::before {
+  content: "\f023";
+  font-family: "Font Awesome 5 Free";
+  font-size: 1.5em;
+  font-weight: 600;
+  color: var(--primary-color);
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.title {
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+}
+
+.title::before {
+  content: "\f2bd";
+  font-family: "Font Awesome 5 Free";
+  font-size: 4em;
+  color: var(--primary-color);
+}
+
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+  letter-spacing: 1.2px;
+}
+
+a:visited {
+  color: var(--link-visited);
+  text-decoration: none;
+  letter-spacing: 1.2px;
+}
+
+a:hover {
+  color: var(--link-hover);
+  text-decoration: none;
+  letter-spacing: 1.2px;
+}
+
+a:active {
+  color: var(--link-active);
+  text-decoration: none;
+  letter-spacing: 1.2px;
+}
