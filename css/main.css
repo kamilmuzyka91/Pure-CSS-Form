@@ -17,7 +17,7 @@ form {
   background: #fff;
   border-radius: 4px 4px;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
-  padding: 40px;
+  padding: 20px;
 }
 
 input {
@@ -30,6 +30,11 @@ input {
   margin: 20px 0;
 }
 
+input:focus {
+  outline: none;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
+}
+
 button {
   display: inline-block;
   color: #fff;
@@ -37,6 +42,7 @@ button {
   border: none;
   border-radius: 5px;
   padding: 15px 30px;
+  cursor: pointer;
 }
 
 .btn__submit {
@@ -68,7 +74,15 @@ label.passwd::before {
 
 .title {
   text-align: center;
+  margin: 0;
   padding: 10px;
+}
+
+.title::before {
+  content: "\f2bd";
+  font-family: "Font Awesome 5 Free";
+  font-size: 4em;
+  color: var(--primary-color);
 }
 
 a {
